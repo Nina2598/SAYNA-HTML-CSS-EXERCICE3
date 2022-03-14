@@ -1,0 +1,21 @@
+:root{
+    --couleurbg:#27242b;
+    --couleursec:#3d9f96;
+    --couleurgray: #f7f7f7
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+header, #avatar{
+    background-color: var(--couleurbg);
+}
+.couleursec{
+    color: var(--couleursec);
+}
+.couleursecbtn{
+    background-color: var(--couleursec);
+}
+#media-social, #screenshoot, #footer{
+background-color: var(--couleurgray);
+}
